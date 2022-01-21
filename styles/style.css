@@ -1,0 +1,29 @@
+/* Google font poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    color: #4E4E4E;
+}
+.banner-title {
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 40px;
+}
+.banner-price {
+    color: #FF136F;
+    font-size: 35px;
+}
+.panda-bg-misti-color {
+    background-color: #FEEAE9;
+}
+.panda-btn-primary {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+}
