@@ -34,13 +34,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
+                            <a class="nav-link" href="#categories">Categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Abount Us</a>
+                            <a class="nav-link" href="#products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -130,7 +130,7 @@
     </header>
     <main>
         <!-- Categories section  -->
-        <section class="container my-5">
+        <section id="categories" class="container my-5">
             <h3 class="my-4">Categories</h3>
             <div class="row g-4 categories">
                 <div class="col-12 col-md-6 col-lg-4">
@@ -155,7 +155,7 @@
         </section>
 
         <!-- Products Section  -->
-        <section class="display-items py-4" style="background-color: #F4F4F4;">
+        <section id="products" class="py-4" style="background-color: #F4F4F4;">
             <div class="shoes container">
                 <div class="d-flex justify-content-between py-4">
                     <h3>Shoes</h3>
@@ -267,6 +267,20 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!-- STAY IN TOUCH SECTION  -->
+        <section id="contact" class="py-4" style="background-color: #fff;">
+            <div class="stay-in-touch container my-5 rounded bg-sweet-lite d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h3>LET'S STAY IN TOUCH</h3>
+                    <p>Get updates on sales specials and more</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="panda-btn-primary bg-gradient-magenta" type="button" id="button-addon2">Button</button>
+                        </div>
+                    </div>
+                </div>
         </section>
     </main>
     <!-- Option 1: Bootstrap Bundle with Popper -->
