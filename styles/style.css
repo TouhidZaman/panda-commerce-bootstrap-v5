@@ -1,12 +1,29 @@
 /* Google font poppins  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+/* Common styles  */
 body {
     font-family: 'Poppins', sans-serif;
 }
 p {
     color: #4E4E4E;
 }
+
+/* background colors  */
+.bg-sweet-lite {
+    background-color: #FEEAE9;
+}
+.bg-gradient-magenta {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.bg-gradient-yellow {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.bg-gradient-blue {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+/* End of background colors  */
+
 .banner-title {
     color: #1F1F1F;
     font-weight: bold;
@@ -14,16 +31,13 @@ p {
 }
 .banner-price {
     color: #FF136F;
-    font-size: 35px;
-}
-.panda-bg-misti-color {
-    background-color: #FEEAE9;
+    font-size: 40px;
 }
 .panda-btn-primary {
-    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
     border-radius: 6px;
     color: white;
-    padding: 10px 20px;
+    padding: 0px 20px;
     font-weight: bold;
     border: none;
+    height: 40px;
 }
